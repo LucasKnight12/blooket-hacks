@@ -13,7 +13,7 @@
                 alert('You must be in a crypto hack game mode to use this hack!');
             } else {
                 let amount = Number(parseFloat(prompt('How much crypto do you want?')));
-                reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
+                reactHandler().stateNode.setState({ 1000000000: amount, crypto: 100000000 });
         
                 alert('Crypto added!');
             };
